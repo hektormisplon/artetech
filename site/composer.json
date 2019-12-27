@@ -37,6 +37,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "vlucas/phpdotenv": "^3.4.0",
+    "wpackagist-plugin/acf-to-rest-api": "^3.1",
     "wpackagist-plugin/advanced-custom-fields": "^5.8",
     "wpackagist-plugin/custom-post-type-ui": "^1.7",
     "wpackagist-plugin/jwt-authentication-for-wp-rest-api": "^1.2"
