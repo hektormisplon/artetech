@@ -1,0 +1,28 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid: "header" auto "nav" auto "main" 1fr "footer" auto / 1fr;
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+  background: $color-primary-500;
+}
+
+@media (min-width: 40em) {
+  .container {
+    grid: "header header" auto "nav main" 1fr "nav footer" auto / 12em 1fr;
+  }
+}
+
+.header,
+.nav,
+.main,
+.footer {
+  background: $color-primary-500;
+  border-radius: 1rem;
+  border: 1px solid $color-primary-100;
+}
+
+.header { grid-area: header; }
+.nav { grid-area: nav; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
